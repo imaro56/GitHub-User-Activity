@@ -39,7 +39,7 @@ def main() -> None:
     to_json('events.json', events)
     if not check_if_valid(events):
         return
-    print(events)
+    print('All good')
 
 if __name__ == '__main__':
     main()
